@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AceCoinPay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- For icons -->
+</head>
+<body>
+    <div class="payment-container">
+        <div class="payment-form">
+            <div class="header">
+                <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0-hSuEgrXzij73jjNZnY5d_pGa_aDpRlx0g&s" alt="Logo" class="logo-image">
+                    <span>AceCoin<span class="pay-highlight">Pay</span></span>
+                </div>
+                <div class="timer">
+                    <span>0</span><span>1</span>:<span>1</span><span>9</span>
+                </div>
+            </div>
+            
+            <form>
+                <div class="input-group">
+                    <label>Card Number</label>
+                    <div class="input-field card-number">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/200px-Mastercard_2019_logo.svg.png" alt="Mastercard" class="card-icon">
+                        <input type="text" placeholder="2412  -  7512  -  3412  -  3456" disabled>
+                        <span class="verified-icon"><i class="fas fa-check-circle"></i></span>
+                        <a href="#" class="edit-link">Edit</a>
+                    </div>
+                    <small>Enter the 16-digit card number on the card</small>
+                </div>
+
+                <div class="input-group small-group">
+                    <label>CVV Number</label>
+                    <div class="input-field small-input">
+                        <input type="text" placeholder="327">
+                        <button type="button" class="icon-button"><i class="fas fa-keyboard"></i></button>
+                    </div>
+                    <small>Enter the 3 or 4 digit number on the card</small>
+                </div>
+
+                <div class="input-group small-group">
+                    <label>Expiry Date</label>
+                    <div class="input-field expiry-date">
+                        <input type="text" placeholder="09">
+                        <span>/</span>
+                        <input type="text" placeholder="22">
+                    </div>
+                    <small>Enter the expiration date of the card</small>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <div class="input-field">
+                        <input type="password" placeholder="••••••••">
+                        <button type="button" class="icon-button"><i class="fas fa-keyboard"></i></button>
+                    </div>
+                    <small>Enter your dynamic password</small>
+                </div>
+
+                <button class="pay-button">Pay Now</button>
+            </form>
+        </div>
+
+        <div class="payment-summary">
+            <div class="card-display">
+                <div class="card-info">
+                    <p>Jonathan Michael</p>
+                    <p>•••• 3456</p>
+                    <p>09/22</p>
+                </div>
+                <img src="https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/consumers/find-a-card/other/mc-standard-card-1280x720.png" alt="Mastercard" class="card-logo">
+            </div>
+            
+            <div class="summary-details">
+                <p><span>Company</span><span>Apple</span></p>
+                <p><span>Order Number</span><span>1266201</span></p>
+                <p><span>Product</span><span>MacBook Air</span></p>
+                <p><span>VAT (20%)</span><span>$100.00</span></p>
+            </div>
+
+            <div class="total-amount">
+                <p>You have to Pay</p>
+                <h2>$549.99 <span>USD</span></h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

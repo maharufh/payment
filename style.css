@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f5f9;
+}
+
+.payment-container {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 900px;
+}
+
+.payment-form, .payment-summary {
+    padding: 30px;
+}
+
+.payment-form {
+    flex: 2;
+    padding-right: 40px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo-image {
+    width: 35px;
+    margin-right: 8px;
+}
+
+.pay-highlight {
+    color: #007bff;
+}
+
+.timer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+}
+
+.timer span {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    background: #222;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.input-group small {
+    font-size: 12px;
+    color: #888;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.card-number .card-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+}
+
+.verified-icon {
+    color: #4caf50;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.edit-link {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.edit-link:hover {
+    text-decoration: underline;
+}
+
+.small-group .small-input {
+    display: flex;
+    align-items: center;
+}
+
+.small-input input {
+    width: 50px;
+    text-align: center;
+}
+
+.expiry-date input {
+    width: 35px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    color: #333;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}
+
+.payment-summary {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.card-display {
+    background-color: #f5f7fa;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.card-info {
+    color: #333;
+}
+
+.card-logo {
+    width: 40px;
+}
+
+.summary-details p {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    margin: 10px 0;
+}
+
+.total-amount {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.total-amount h2 {
+    color: #333;
+    font-size: 26px;
+}
+
+.total-amount h2 span {
+    font-size: 18px;
+    color: #999;
+}
